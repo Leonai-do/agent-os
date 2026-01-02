@@ -1,0 +1,44 @@
+# UADS Configuration
+# Universal Agent Directory Standard - Project Configuration
+
+version: "1.0.0"
+
+# Project metadata
+project:
+  name: "agent-os"
+  description: "Universal Agent Directory Standard - Spec-driven agentic development"
+
+# Target IDE configuration
+target:
+  ide: "antigravity"
+  output_dir: ".agent/workflows"
+
+# Command configuration
+commands:
+  prefix: "uads-" # All commands prefixed with uads-
+  separator: "-" # Lowercase with dash separator
+
+# Template configuration
+templates:
+  syntax: "mustache" # {{ include "path.md" }}, {{ inject "pattern" }}
+  include_directive: "include" # {{ include "workflows/planning/file.md" }}
+  inject_directive: "inject" # {{ inject "standards/*" }}
+  agent_directive: "agent" # {{ agent "implementer" }}
+
+# Standards injection
+standards:
+  auto_inject: true # Automatically inject standards into workflows
+  patterns:
+    - "standards/backend/*"
+    - "standards/frontend/*"
+
+# Profile configuration (inherited from Agent OS)
+profile:
+  name: "default"
+  inherits_from: null
+
+# Compilation settings
+compile:
+  watch: false # Watch for changes and recompile
+  clean: true # Clean output directory before compile
+  verbose: false # Verbose output during compilation
