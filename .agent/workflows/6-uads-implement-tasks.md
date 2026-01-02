@@ -250,7 +250,7 @@ Use the `view_file` tool to load the remaining instructions:
 
 ```python
 view_file(
-    AbsolutePath="/home/leonai-do/agent-os/.agent/extended/uads-implement-tasks.txt"
+    AbsolutePath="/home/leonai-do/agent-os/.agent/extended/6-uads-implement-tasks.txt"
 )
 ```
 

@@ -42,17 +42,18 @@ class UADSCompiler:
         target = self.config.get('target', {})
         output_dir = self.project_root / target.get('output_dir', '.agent/workflows')
         
-        # Clean output directory if configured
+        # Clean output directories if configured
         if self.config.get('compile', {}).get('clean', True):
-            if output_dir.exists():
-                import shutil
-                shutil.rmtree(output_dir)
+            for d in [output_dir, self.project_root / ".agent" / "extended"]:
+                if d.exists():
+                    import shutil
+                    shutil.rmtree(d)
         
         output_dir.mkdir(parents=True, exist_ok=True)
         
         # Compile each command
         compiled_count = 0
-        for command_file in commands_dir.glob("uads-*.md"):
+        for command_file in sorted(commands_dir.glob("*-uads-*.md")):
             output_file = output_dir / command_file.name
             if self.compile_command(command_file, output_file):
                 compiled_count += 1

@@ -310,7 +310,7 @@ Use the `view_file` tool to load the remaining instructions:
 
 ```python
 view_file(
-    AbsolutePath="/home/leonai-do/agent-os/.agent/extended/uads-shape-spec.txt"
+    AbsolutePath="/home/leonai-do/agent-os/.agent/extended/2-uads-shape-spec.txt"
 )
 ```
 

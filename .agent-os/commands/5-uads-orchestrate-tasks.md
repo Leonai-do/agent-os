@@ -14,9 +14,9 @@ Now that we have a spec and tasks list ready for implementation, we will proceed
 Please point me to a spec's tasks.md that you want to orchestrate implementation for.
 
 If you don't have one yet, then run any of these commands first:
-/uads-shape-spec
-/uads-write-spec
-/uads-create-tasks
+/2-uads-shape-spec
+/3-uads-write-spec
+/4-uads-create-tasks
 ```
 
 ## Phase 2: Create orchestration.yml

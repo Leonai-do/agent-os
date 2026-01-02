@@ -16,7 +16,7 @@ The FIRST STEP is to make sure you have ONE OR BOTH of these files to inform you
 ```
 I'll need a spec.md or requirements.md (or both) in order to build a tasks list.
 
-Please direct me to where I can find those. If you haven't created them yet, you can run /uads-shape-spec or /uads-write-spec.
+Please direct me to where I can find those. If you haven't created them yet, you can run /2-uads-shape-spec or /3-uads-write-spec.
 ```
 
 Once you've confirmed you have the spec and/or requirements, proceed to Phase 2.

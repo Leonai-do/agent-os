@@ -256,7 +256,7 @@ Use the `view_file` tool to load the remaining instructions:
 
 ```python
 view_file(
-    AbsolutePath="/home/leonai-do/agent-os/.agent/extended/uads-plan-product.txt"
+    AbsolutePath="/home/leonai-do/agent-os/.agent/extended/1-uads-plan-product.txt"
 )
 ```
 

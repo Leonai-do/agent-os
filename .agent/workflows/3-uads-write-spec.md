@@ -116,7 +116,7 @@ The spec has been created at agent-os/specs/[this-spec]/spec.md.
 
 Review it closely to ensure everything aligns with your vision and requirements.
 
-Next step: Run /uads-create-tasks to create the implementation tasks list.
+Next step: Run /4-uads-create-tasks to create the implementation tasks list.
 ```
 
 ## User Standards & Preferences Compliance
@@ -232,7 +232,7 @@ Use the `view_file` tool to load the remaining instructions:
 
 ```python
 view_file(
-    AbsolutePath="/home/leonai-do/agent-os/.agent/extended/uads-write-spec.txt"
+    AbsolutePath="/home/leonai-do/agent-os/.agent/extended/3-uads-write-spec.txt"
 )
 ```
 

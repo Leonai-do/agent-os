@@ -17,7 +17,7 @@ The spec has been created at agent-os/specs/[this-spec]/spec.md.
 
 Review it closely to ensure everything aligns with your vision and requirements.
 
-Next step: Run /uads-create-tasks to create the implementation tasks list.
+Next step: Run /4-uads-create-tasks to create the implementation tasks list.
 ```
 
 ## User Standards & Preferences Compliance
